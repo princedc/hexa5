@@ -5,7 +5,9 @@ import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { DigitalProgramComponent } from './digital-program/digital-program.component';
 import { AcceleratorProgramComponent } from './accelerator-program/accelerator-program.component'
+import { AccelerationProgramComponent} from './acceleration-program/acceleration-program.component'
 import { CorporateTrainingComponent} from './corportate-training/corportate-training.component'
+
 const routes: Routes = [
   // {
   //   path : '',
@@ -26,6 +28,10 @@ const routes: Routes = [
   {
     path: 'tap', 
     component: AcceleratorProgramComponent
+  },
+  {
+    path: 'eap',
+    component :AccelerationProgramComponent
   },
   {
     path: 'about',
