@@ -13,9 +13,11 @@ const routes: Routes = [
   // },
 
   { 
-    path: '', 
-    redirectTo: '/about', 
-    pathMatch: 'full' 
+    // path: '', 
+    // redirectTo: '/about', 
+    // pathMatch: 'full' 
+    path: '',
+    component: AboutusComponent
   },
   {
     path:'ctp',

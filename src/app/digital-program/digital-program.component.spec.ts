@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import {ActivatedRoute} from '@angular/router';
 import { DigitalProgramComponent } from './digital-program.component';
 
 describe('DigitalProgramComponent', () => {

@@ -69,7 +69,7 @@ ul.menuul > li:last-child > a {font-size:24px; color:#999;}
 .clients_div > div {font-size:16px; font-weight:500; margin-top:5px;}
 
 #services {display:inline-block; position:relative; width:100%; padding:3% 0;}
-.services_row {padding:2% 0}
+.services_row {padding:0px 100px 0px 100px}
 .services_row > div {position:relative; z-index:1;}
 .services_hd {font-weight:bold; text-transform:uppercase; padding:4% 12%;}
 .services_hd_subtxt {display:inherit; margin-top:-10px;}
@@ -77,7 +77,7 @@ ul.menuul > li:last-child > a {font-size:24px; color:#999;}
 .services_bg_rt {position:absolute; right:0; top:12%; width:12%; height:60%; background:url(../images/services_bg_rt.png); background-repeat:no-repeat; background-size:contain;}
 
 .services_pagerow > p {margin-bottom:0; color:#c530d1; line-height:28px;}
-.services_pagerow > ul {margin:4% 0 4% 1.5%; line-height:24px;}
+.services_pagerow > ul {margin:4% 0 4% 1.5%; line-height:24px; padding:0px 50px 0px 50px;}
 
 .services_banner {display:inline-block; position:relative; width:100%;}
 .services_banner h1 {position:absolute; top:60%; text-transform:uppercase;}

@@ -1,10 +1,10 @@
 <section id="banner">
-<div class="row">
-  <video width="100%" autoplay loop>
-    <source src="/assets/images/HexamaticsIntro.mp4" type="video/mp4">
+
+    <video width="100%" height="70%" autoplay loop>
+      <source src="/assets/videos/HexamaticsIntroModified.mp4" type="video/mp4">
       Your browser does not support video tag
-  </video>
-</div>
+    </video>
+
 </section>
 <section id="Subscribe_section">
   <div class="wrapper">
@@ -20,7 +20,7 @@
         <img src="/assets/images/about_img.png" />
       </div>
       <div class="col-md-7 about_section_rt">
-        <div class="heading">About Us100</div>
+        <div class="heading">About Us</div>
         <div class="heading_sep"></div>
         <div class="about_subhd"> Training and education specialist</div>
         <div class="about_content">Providing various soft skill and technical corporate training programs.</div>
@@ -124,27 +124,42 @@
     <div class="heading_sep"></div>
     <div class="row services_row mt-4 mb-5">
       <div class="col-md-4 text-center">
-        <img src="/assets/images/services-1.png" />
-        <div class="services_hd">Corporate Training</div>
-        <div class="services_hd_subtxt">Competency Development Programme</div>
+        <a routerLink="/ctp" fragment="ctp">
+          <img src="/assets/images/services-1.png" />
+          <div class="services_hd">Corporate Training</div>
+          <div class="services_hd_subtxt">Competency Development Programme</div>
+        </a>
       </div>
+
+
       <div class="col-md-4 text-center">
-        <img src="/assets/images/services-2.png" />
-        <div class="services_hd">Customized Employability Program</div>
+        <a routerLink="/cep"  fragment="cep">
+          <img src="/assets/images/services-2.png" />
+          <div class="services_hd">Customized Employability Program</div>
+        </a>
       </div>
+
       <div class="col-md-4 text-center">
-        <img src="/assets/images/services-3.png" />
-        <div class="services_hd">Employment acceleration program</div>
+        <a routerLink="/"><img src="/assets/images/services-3.png" />
+          <div class="services_hd">Employment acceleration program</div>
+        </a>
       </div>
+
     </div>
     <div class="row services">
       <div class="col-md-4 offset-2 text-center">
-        <img src="/assets/images/services-4.png" />
-        <div class="services_hd">Online Live Digital Courses</div>
+        <a routerLink="/dp"  fragment="dp">
+          <img src="/assets/images/services-4.png" />
+          <div class="services_hd">Online Live Digital Courses</div>
+        </a>
       </div>
+
+
       <div class="col-md-4 text-center">
-        <img src="/assets/images/services-5.png" />
-        <div class="services_hd">Youth Digital Talent Accelerator Programs</div>
+        <a routerLink="/tap" fragment="tap">
+          <img src="/assets/images/services-5.png" />
+          <div class="services_hd">Youth Digital Talent Accelerator Programs</div>
+        </a>
       </div>
     </div>
   </div>
