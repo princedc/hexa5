@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.about_point:before {
+    font-family: 'FontAwesome';
+    content: "\f192";
+    color: black;
+    margin-right:15px;
+   }
