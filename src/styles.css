@@ -5,3 +5,19 @@
     color: black;
     margin-right:15px;
    }
+
+
+   .container-24-4 {
+    position: relative;
+    top: 0;
+    overflow: visible;
+    min-height: 560px;
+    background-image: url(https://uploads-ssl.webflow.com/5b10bae2a429802ab5fa52f3/5b175658ff648d73eb44dd69_2-02.png);
+    background-position: -93px 51%;
+    background-size: cover;
+    opacity: 1;
+    font-family: Helveticaneue,sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px
+}

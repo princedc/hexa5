@@ -20,7 +20,7 @@ const routes: Routes = [
     // pathMatch: 'full' 
     path: '',
     component: AboutusComponent
-  },
+  },  
   {
     path:'ctp',
     component : CorporateTrainingComponent
