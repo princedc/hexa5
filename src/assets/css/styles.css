@@ -30,12 +30,12 @@ header {position:fixed; z-index:10000; background:#FFF; width:100%; box-shadow:0
 .menu {float:right;}
 ul.menuul {list-style:none; margin-bottom:0;}
 ul.menuul > li {display:inline-block; position:relative; padding:22px 25px; transition:all .2s ease-in-out; vertical-align:middle; cursor:pointer;}
-ul.menuul > li > a {text-transform:uppercase; color:#313131; transition:all .2s ease-in-out;}
+ul.menuul > li > a { color:#313131; transition:all .2s ease-in-out;}
 ul.menuul > li:hover > a {color:#eb37f7;}
 ul.menuul > li:last-child > a {font-size:24px; color:#999;}
 .menudown:hover .menudropdown {display:block;}
 .menudropdown {display:none; list-style:none; position:absolute; top:65px; left:10px; transition:all .2s ease-in-out; z-index:10; background:#FFF;}
-.menudropdown > li {padding:15px; min-width:150px; text-transform:uppercase;}
+.menudropdown > li {padding:15px; min-width:150px; }
 .menudropdown > li > a {color:#242424; transition:all .2s ease-in-out;}
 .menudropdown > li:hover a {color:#eb37f7;}
 
@@ -61,7 +61,7 @@ ul.menuul > li:last-child > a {font-size:24px; color:#999;}
 #strive {display:inline-block; width:100%; padding:3% 0 1% 0;}
 .strive_row {padding:5% 0;}
 .strive_img_div > img {width:100%;}
-.strive_heading {font-weight:bold; font-size:16px; text-transform:uppercase;}
+.strive_heading {font-weight:bold; font-size:16px;}
 .strive_content {line-height:28px; margin-bottom:10px;}
 
 #clients {display:inline-block; width:100%; background:#ebebeb; padding:3% 0; color:#242424;}
@@ -71,7 +71,7 @@ ul.menuul > li:last-child > a {font-size:24px; color:#999;}
 #services {display:inline-block; position:relative; width:100%; padding:3% 0;}
 .services_row {padding:0px 100px 0px 100px}
 .services_row > div {position:relative; z-index:1;}
-.services_hd {font-weight:bold; text-transform:uppercase; padding:4% 12%;}
+.services_hd {font-weight:bold;  padding:4% 12%;}
 .services_hd_subtxt {display:inherit; margin-top:-10px;}
 .services_bg_lft {position:absolute; left:0; bottom:0; width:12%; height:60%; background:url(../images/services_bg_lft.png); background-repeat:no-repeat; background-size:contain;}
 .services_bg_rt {position:absolute; right:0; top:12%; width:12%; height:60%; background:url(../images/services_bg_rt.png); background-repeat:no-repeat; background-size:contain;}
