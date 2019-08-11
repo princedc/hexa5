@@ -12,7 +12,7 @@
     top: 0;
     overflow: visible;
     min-height: 560px;
-    background-image: url(https://uploads-ssl.webflow.com/5b10bae2a429802ab5fa52f3/5b175658ff648d73eb44dd69_2-02.png);
+    background-image: url(src/assets/images/world_background.png);
     background-position: -93px 51%;
     background-size: cover;
     opacity: 1;
@@ -81,7 +81,7 @@
 }
 
 .footer3-2,.footer4-indon {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#1b1b1b),to(#1b1b1b))
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#020202),to(#020202))
 }
 .footer4-indon {
     position: static;
@@ -96,15 +96,15 @@
     position: static;
     display: block;
     min-height: 560px;
-    background-image: linear-gradient(180deg,#1b1b1b,#1b1b1b)
+    background-image: linear-gradient(180deg,#020202,#020202)
 }
 
 .div-block-250,.footer3-2.caontacus {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#1b1b1b),to(#1b1b1b))
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#020202),to(#020202))
 }
 
 .footer3-2.caontacus {
-    background-image: linear-gradient(180deg,#1b1b1b,#1b1b1b);
+    background-image: linear-gradient(180deg,#020202,#020202);
     background-position: 0 0;
     background-size: auto
 }
